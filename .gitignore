@@ -1,0 +1,125 @@
+# Byte-kompilierte Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Betriebssystem-Dateien
+*.lnk
+*.ini
+Thumbs.db
+Desktop.ini
+
+# Virtuelle Umgebungen
+.env
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Lokale Konfigurations- und Cache-Dateien
+.AppData/
+.Docker/
+.VSCode/
+.DerivedData/
+*.log
+.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Python-Paketierung und Build-Dateien
+.Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+MANIFEST
+*.egg
+downloads/
+wheels/
+sdist/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sphinx-Dokumentation
+docs/_build/
+
+# Test-/Coverage-Artefakte
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# mypy und Typprüfungs-Tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Cython Debug-Dateien
+cython_debug/
+
+# Spyder und Rope IDE-Projekte
+.spyderproject
+.ropeproject
+
+# JetBrains IDE-Projekte (wie PyCharm)
+.idea/
+
+# Framework- und Tool-spezifische Dateien
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Python PEP 582 (lokale Paketordner)
+__pypackages__/
+
+# Paketmanagement-Dateien
+.pdm.toml
+.pdm-python
+.pdm-build/
+# Optional: Pipfile.lock und poetry.lock (falls nicht versionsübergreifend notwendig)
+# Pipfile.lock
+# poetry.lock
+
+# Debugging und andere generierte Dateien
+*.mo
+*.pot
+*.sage.py
+profile_default/
+ipython_config.py
+
+# Übersetzungen
+*.mo
+*.pot
+
+# Docker
+*.dockerignore
+
+# Sonstige temporäre Dateien
+*.tmp
+*.bak
+~$*
+*.swp
